@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Profile-ReactJS/static/css/main.62e4ff6d.chunk.css",
-    "main.js": "/Profile-ReactJS/static/js/main.7d47d874.chunk.js",
-    "main.js.map": "/Profile-ReactJS/static/js/main.7d47d874.chunk.js.map",
+    "main.css": "/Profile-ReactJS/static/css/main.a91f1c14.chunk.css",
+    "main.js": "/Profile-ReactJS/static/js/main.913d65dd.chunk.js",
+    "main.js.map": "/Profile-ReactJS/static/js/main.913d65dd.chunk.js.map",
     "runtime-main.js": "/Profile-ReactJS/static/js/runtime-main.9ff0e8d1.js",
     "runtime-main.js.map": "/Profile-ReactJS/static/js/runtime-main.9ff0e8d1.js.map",
     "static/js/2.ab29a744.chunk.js": "/Profile-ReactJS/static/js/2.ab29a744.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.17e38f23.chunk.js": "/Profile-ReactJS/static/js/3.17e38f23.chunk.js",
     "static/js/3.17e38f23.chunk.js.map": "/Profile-ReactJS/static/js/3.17e38f23.chunk.js.map",
     "index.html": "/Profile-ReactJS/index.html",
-    "static/css/main.62e4ff6d.chunk.css.map": "/Profile-ReactJS/static/css/main.62e4ff6d.chunk.css.map",
+    "static/css/main.a91f1c14.chunk.css.map": "/Profile-ReactJS/static/css/main.a91f1c14.chunk.css.map",
     "static/js/2.ab29a744.chunk.js.LICENSE.txt": "/Profile-ReactJS/static/js/2.ab29a744.chunk.js.LICENSE.txt",
-    "static/media/pic.f9d0a246.jpg": "/Profile-ReactJS/static/media/pic.f9d0a246.jpg"
+    "static/media/propic.96adffc9.jpg": "/Profile-ReactJS/static/media/propic.96adffc9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9ff0e8d1.js",
     "static/js/2.ab29a744.chunk.js",
-    "static/css/main.62e4ff6d.chunk.css",
-    "static/js/main.7d47d874.chunk.js"
+    "static/css/main.a91f1c14.chunk.css",
+    "static/js/main.913d65dd.chunk.js"
   ]
 }
