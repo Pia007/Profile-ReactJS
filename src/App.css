@@ -103,40 +103,34 @@ body {
   margin-right: 1rem;
  
 }
-/* .my-name {
-  margin-right: 1.5rem;
-} */
-.likes {
-  text-align: center;
-  justify-content: center;
-  align-content: center;
+
+.likes button{
+  border: none;
+  margin-left: 1rem;
   margin-bottom: 1.5rem;
+  background: white;
 }
 
 .fas {
-  
+  font-size: 2rem;
   color: var(--red);
 }
 .count,
-.fas,
 .fab {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 .fab {
-  font-size: 2.5rem;
+  font-size: 2.45rem;
 }
 .fab {
   color: rgb(33, 89, 219);
 }
 
-.fa-twitter {
-  margin-right: .35rem;
-}
-
-
+.fa-twitter,
 .fa-github-square {
-  margin-left: .35rem;
+  margin-right: 1.3rem;
 }
+
 /* @media screen and (max-width: 37.5rem) {
   body {
     max-width: 100%;

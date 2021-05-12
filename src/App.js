@@ -4,7 +4,8 @@ import Header from './components/Header';
 import Greeting from './components/Greeting';
 import Button from './components/Button';
 import Placeholder from './components/Placeholder';
-// import Counter from '.components/Counter';
+import Likes from './components/Likes';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -22,7 +23,15 @@ function App() {
     setName("I am a Frontend Developer")
   }
 
+  // Counter
+  const [counter, setCounter] = useState(0)
   
+  
+  const handleCount = () => {
+    setCounter(counter + 1)
+  }
+  
+    
 
   return (
     
@@ -39,26 +48,14 @@ function App() {
             <Button clickHandler= {handleName} btntext={"Name"} />
             <Button clickHandler= {handleSkills} btntext={"Skills"} />
           </div>
-        
-          
         </section>
 
         <section className="likes">
-
-    
-          
-          <button className="count" ><i className="fas fa-heart"></i></button>
-          
+          <Placeholder  message={counter} />
+          <Likes clickCounter= {handleCount} />
         </section>
 
-        <footer className="footer">
-          <a className="links" target="_blank" href="https://twitter.com/FeenixRizn" rel="noreferrer">
-            <i className="fab fa-twitter"></i>
-          </a>
-          <a className="links" target="_blank" href="https://github.com/Pia007" rel="noreferrer" >
-            <i className="fab fa-github-square"></i>
-          </a>
-        </footer>
+        <Footer />
       </div>
     </body>  
   );
