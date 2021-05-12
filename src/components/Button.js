@@ -4,6 +4,7 @@ function Button({clickHandler, btntext}) {
     return (
         <>
             <button onClick={clickHandler}>{btntext}</button>
+            
         </>
     )
 }

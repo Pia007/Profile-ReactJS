@@ -1,5 +1,4 @@
 import { useState } from 'react';
-
 import Header from './components/Header';
 import Greeting from './components/Greeting';
 import Button from './components/Button';
@@ -17,10 +16,10 @@ function App() {
   
 
   const handleName = () => {
-    setName("Hi, my name is Pia")
+    setName("Hi, my name is Pia!")
   }
   const handleSkills = () => {
-    setName("I am a Frontend Developer")
+    setName("I'm a Frontend Developer. Click the links for more info.")
   }
 
   // Counter

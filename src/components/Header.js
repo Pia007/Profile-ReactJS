@@ -1,4 +1,4 @@
-import pic from '../images/pic.jpg';
+import propic from '../images/propic.jpg';
 
 function Header() {
     return (
@@ -6,9 +6,9 @@ function Header() {
             <header className="c-header">
                 <div className="img-holder">
                     <img className="pic" 
-                    src={pic} alt="pic" 
-                    border="0" width="300"  
-                    height="300" 
+                    src={propic} alt="pic" 
+                    border="0" width="275"  
+                    height="275" 
                     
                 /> 
                 </div>  
