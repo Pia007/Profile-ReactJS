@@ -1,27 +1,53 @@
+import { useState } from 'react';
 
 import Header from './components/Header';
+import Greeting from './components/Greeting';
+import Button from './components/Button';
+import Placeholder from './components/Placeholder';
+// import Counter from '.components/Counter';
 import './App.css';
 
 function App() {
+
+  // const [state, setState] = useState(initialState)
+
+  // Output message when button is clicked
+  const [name, setName] = useState("")
+  
+
+  const handleName = () => {
+    setName("Hi, my name is Pia")
+  }
+  const handleSkills = () => {
+    setName("I am a Frontend Developer")
+  }
+
+  
+
   return (
     
     <body>
       <div className="card ">
         <Header />
         
-        <section className="c-body">
-          <h2 className="greeting">
-            Hi!
-          </h2>
-          <h2 className="message">
-            Placeholder
-          </h2>
-          <button className="btn my-name">Name</button>
-          <button className="btn my-skills">Skills</button>  
+        <section className="card-body">
+          <Greeting />
+        
+          <Placeholder  message={name} />
+
+          <div className="btns">
+            <Button clickHandler= {handleName} btntext={"Name"} />
+            <Button clickHandler= {handleSkills} btntext={"Skills"} />
+          </div>
+        
+          
         </section>
 
         <section className="likes">
-          <span className="count">0 <i className="fas fa-heart"></i></span>
+
+    
+          
+          <button className="count" ><i className="fas fa-heart"></i></button>
           
         </section>
 
