@@ -8,6 +8,9 @@ function Footer() {
           <a className="links" target="_blank" href="https://github.com/Pia007" rel="noreferrer" >
             <i className="fab fa-github-square"></i>
           </a>
+          <a className="links" target="_blank" href="https://linkedin.com/in/pia-torain-dev" rel="noreferrer" >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
         </footer>
     )
 }
